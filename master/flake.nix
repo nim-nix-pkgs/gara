@@ -11,7 +11,6 @@
   inputs.src-gara-master.ref   = "refs/heads/master";
   inputs.src-gara-master.owner = "alehander42";
   inputs.src-gara-master.repo  = "gara";
-  inputs.src-gara-master.dir   = "";
   inputs.src-gara-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
